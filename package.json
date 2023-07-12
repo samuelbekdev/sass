@@ -19,6 +19,7 @@
     "fix": "npm run update-toc && npm run tangle && gts fix && npm run untangle",
     "test": "npm run tangle && gts lint && tsc --noEmit && npm run toc-check && npm run link-check && npm run js-api-doc-check && npm run typedoc"
   },
+  
   "dependencies": {
     "@types/diff": "^5.0.1",
     "@types/glob": "^7.1.4",
